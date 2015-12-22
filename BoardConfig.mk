@@ -40,7 +40,7 @@ BOARD_KERNEL_PAGESIZE := 2048
 BOARD_KERNEL_SEPARATED_DT := true
 TARGET_KERNEL_CONFIG := msm8226-sec_defconfig
 TARGET_KERNEL_SELINUX_CONFIG := selinux_defconfig
-TARGET_KERNEL_SOURCE := kernel/samsung/afyonltetmo
+TARGET_KERNEL_SOURCE := kernel/samsung/msm8226
 TARGET_KERNEL_VARIANT_CONFIG := msm8926-sec_afyonltetmo_defconfig
 
 # Audio
