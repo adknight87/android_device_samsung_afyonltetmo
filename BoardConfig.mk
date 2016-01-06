@@ -100,5 +100,5 @@ BOARD_USES_QC_TIME_SERVICES := true
 # Vendor Init
 TARGET_UNIFIED_DEVICE := true
 TARGET_INIT_VENDOR_LIB := libinit_msm
-TARGET_LIBINIT_DEFINES_FILE := device/samsung/afyonltetmo/init/init_afyonlte.c
+TARGET_LIBINIT_DEFINES_FILE := device/samsung/afyonltetmo/init/init_afyonlte.cpp
 
