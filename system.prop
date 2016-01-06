@@ -1,4 +1,5 @@
 # Audio
+media.stagefright.use-awesome=true
 audio.offload.24bit.enable=false
 audio.offload.buffer.size.kb=32
 audio.offload.gapless.enabled=false
