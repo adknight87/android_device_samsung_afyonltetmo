@@ -23,7 +23,7 @@
 # inherit from msm8226-common
 -include device/samsung/msm8226-common/BoardConfigCommon.mk
 
-TARGET_SPECIFIC_HEADER_PATH := device/samsung/afyonltetmo/include
+TARGET_SPECIFIC_HEADER_PATH += device/samsung/afyonltetmo/include
 
 # inherit from the proprietary version
 -include vendor/samsung/afyonltetmo/BoardConfigVendor.mk
