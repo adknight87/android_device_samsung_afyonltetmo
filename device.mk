@@ -49,7 +49,7 @@ PRODUCT_PACKAGES += \
     libxml2
 
 # Keylayouts
-PRODUCT_COPY_FILES += \
+PRODUCT_COPY_FILES := \
     $(LOCAL_PATH)/keylayout/Generic.kl:system/usr/keylayout/Generic.kl \
 
 # Media
