@@ -33,7 +33,7 @@ TARGET_OTA_ASSERT_DEVICE := afyonltetmo,afyonltemtr,SM-G386T,SM-G386T1,SM-G386W,
 
 # Kernel
 BOARD_KERNEL_CMDLINE := console=null androidboot.console=null androidboot.hardware=qcom user_debug=31 msm_rtb.filter=0x37 androidboot.selinux=permissive
-#BOARD_CUSTOM_BOOTIMG_MK := device/samsung/afyonltetmo/mkbootimg.mk
+BOARD_CUSTOM_BOOTIMG_MK := device/samsung/afyonltetmo/mkbootimg.mk
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02000000 --tags_offset 0x1e00000
 BOARD_KERNEL_PAGESIZE := 2048
@@ -47,7 +47,7 @@ TARGET_KERNEL_VARIANT_CONFIG := msm8926-sec_afyonltetmo_defconfig
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/afyonltetmo/bluetooth
 
 # CMHW
-BOARD_HARDWARE_CLASS += device/samsung/afyonltetmo/cmhw
+#BOARD_HARDWARE_CLASS += device/samsung/afyonltetmo/cmhw
 
 # Encryption
 TARGET_HW_DISK_ENCRYPTION := true
